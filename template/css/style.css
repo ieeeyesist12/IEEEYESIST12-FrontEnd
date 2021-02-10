@@ -4667,7 +4667,7 @@ img{
 
 .schedule-block:nth-child(4n + 1) .date,
 .schedule-block:nth-child(4n + 1) .inner:before{
-	border-color: #ffc20b;
+	border-color: #0A4360;
 }
 
 .schedule-block:nth-child(4n + 2) .date,
