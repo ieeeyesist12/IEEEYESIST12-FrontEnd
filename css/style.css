@@ -57,7 +57,7 @@ Last Change:    12/9/2019
 45. Clients Section / Two / Three
 46. Main Footer / Two / Three
 47. Error Section
-48. Sidebar Page Container 
+48. Sidebar Page Container
 49. Comment Area
 50. Comment Form
 51. Social icon Colored
@@ -65,14 +65,14 @@ Last Change:    12/9/2019
 53. Boxed Layout
 -------------------------------------------*/
 
-/*** 
+/***
 
 ====================================================================
 	 Fonts
 ====================================================================
 
 ***/
- 
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900|Orbitron:500,700|Ubuntu:400,500,700&amp;display=swap');
 
 /*
@@ -81,14 +81,14 @@ Last Change:    12/9/2019
 	font-family: 'Orbitron', sans-serif;
 */
 
-/*** 
+/***
 
 ====================================================================
 	 Resources / Css Files
 ====================================================================
 
  ***/
- 
+
 @import url('fontawesome-all.css');
 @import url('flaticon.css');
 @import url('elegent-icon.css');
@@ -97,14 +97,14 @@ Last Change:    12/9/2019
 @import url('owl.css');
 @import url('jquery.fancybox.min.css');
 
-/*** 
+/***
 
 ====================================================================
     Reset
 ====================================================================
 
  ***/
- 
+
 * {
 	margin:0px;
 	padding:0px;
@@ -112,7 +112,7 @@ Last Change:    12/9/2019
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -153,7 +153,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 input,button,select,textarea{
-	
+
 }
 
 textarea{
@@ -164,8 +164,8 @@ p,.text{
 	position:relative;
 	font-size: 16px;
 	line-height: 26px;
-	color: #888888;
-	font-weight: 400;	
+	color: #000000;
+	font-weight: 400;
 }
 
 .auto-container{
@@ -197,7 +197,7 @@ p,.text{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 img{
@@ -215,7 +215,7 @@ img{
 }
 
 .centered{
-	text-align:center;	
+	text-align:center;
 }
 
 .theme-btn .flaticon-arrow{
@@ -236,21 +236,21 @@ img{
 
 
 ::selection {
-background:#2BB884;
-color:#ffffff;
+	background:#2BB884;
+	color:#ffffff;
 }
 
 ::-moz-selection {
-background:#2BB884;
-color:#ffffff;
+	background:#2BB884;
+	color:#ffffff;
 }
 
 ::-webkit-selection {
-background:#2BB884;
-color:#ffffff;
+	background:#2BB884;
+	color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Buttons Style
@@ -258,10 +258,10 @@ color:#ffffff;
 
  ***/
 
- .theme-btn{
- 	position: relative;
- 	transition: all 300ms ease;
- }
+.theme-btn{
+	position: relative;
+	transition: all 300ms ease;
+}
 
 /* Button style one*/
 .btn-style-one{
@@ -304,14 +304,14 @@ color:#ffffff;
 	-webkit-transform-origin: top right;
 	-ms-transform-origin: top right;
 	transform-origin: top right;
-    -webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
-    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+	-webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+	-webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
 }
 
 .btn-style-one:hover:before{
@@ -365,14 +365,14 @@ color:#ffffff;
 	-webkit-transform-origin: top right;
 	-ms-transform-origin: top right;
 	transform-origin: top right;
-    -webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
-    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+	-webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+	-webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
 }
 
 .btn-style-two:hover:before{
@@ -427,14 +427,14 @@ color:#ffffff;
 	-webkit-transform-origin: top right;
 	-ms-transform-origin: top right;
 	transform-origin: top right;
-    -webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
-    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+	-webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+	-webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
 }
 
 .btn-style-three:hover:before{
@@ -490,14 +490,14 @@ color:#ffffff;
 	-webkit-transform-origin: top right;
 	-ms-transform-origin: top right;
 	transform-origin: top right;
-    -webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
-    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+	-webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+	-webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	-o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+	transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
 }
 
 .btn-style-four:hover:before{
@@ -545,7 +545,7 @@ color:#ffffff;
 	position: relative;
 	font-size: 16px;
 	line-height: 30px;
-	color: #888888;
+	color: #000000;
 	font-weight: 400;
 	padding-left: 25px;
 	margin-bottom: 10px;
@@ -561,7 +561,7 @@ color:#ffffff;
 	content: "";
 }
 
-/*** 
+/***
 
 ====================================================================
 	Social Icons
@@ -597,10 +597,10 @@ color:#ffffff;
 	color:#a9b1bf;
 	background-color: #373851;
 	transition: all 900ms ease;
-    -moz-transition: all 900ms ease;
-    -webkit-transition: all 900ms ease;
-    -ms-transition: all 900ms ease;
-    -o-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	-webkit-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
 }
 
 .social-icon-one li a:hover .fab{
@@ -684,17 +684,17 @@ color:#ffffff;
 	color:#2BB884;
 }
 
-.preloader{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	width:100%; 
-	height:100%; 
-	z-index:999999; 
+.preloader{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:999999;
 	background-color: #ffffff;
-	background-position:center center; 
-	background-repeat:no-repeat; 
-	background-image:url(../images/icons/preloader.svg); 
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-image:url(../images/icons/preloader.svg);
 	background-size:100px;
 }
 
@@ -715,13 +715,13 @@ color:#ffffff;
 	text-decoration: underline;
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 400;
-} 
+}
 
 
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
 .pull-left{
@@ -732,7 +732,7 @@ img{
 	float: right;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -759,7 +759,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 }
 
 .scroll-to-top:hover{
@@ -779,7 +779,7 @@ img{
 	display: block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Title
@@ -853,10 +853,10 @@ img{
 }
 
 .page-title .bread-crumb li a:hover{
-	color:#f0c52e;	
+	color:#f0c52e;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -883,7 +883,7 @@ img{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2BB884', endColorstr='#441066',GradientType=1 );
 	color: transparent;
 	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin-bottom: 15px;
@@ -902,14 +902,14 @@ img{
 	position: relative;
 	font-size: 16px;
 	line-height: 28px;
-	color: #888888;
+	color: #000000;
 	margin-top: 30px;
 }
 
 .sec-title.light h2,
 .sec-title.light .title{
 	color: #ffffff;
-	-webkit-text-fill-color:inherit; 
+	-webkit-text-fill-color:inherit;
 }
 
 
@@ -936,7 +936,7 @@ img{
 	background-repeat: no-repeat;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header
@@ -984,7 +984,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .main-header .nav-outer{
@@ -994,7 +994,7 @@ img{
 	-moz-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
-	transition:all 600ms ease;	
+	transition:all 600ms ease;
 }
 
 .main-header .nav-outer .main-menu{
@@ -1078,7 +1078,7 @@ img{
 	font-size:16px;
 	font-weight: 900;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown:hover > a:after{
@@ -1093,7 +1093,7 @@ img{
 	z-index:100;
 	display:none;
 	opacity: 0;
-    visibility: hidden;
+	visibility: hidden;
 	padding: 20px 0px;
 	background: #ffffff;
 	border-radius: 3px;
@@ -1128,7 +1128,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -1169,8 +1169,8 @@ img{
 	z-index:100;
 	display:none;
 	opacity: 0;
-    visibility: hidden;
-    margin-top: -50px;
+	visibility: hidden;
+	margin-top: -50px;
 	padding: 20px 0px;
 	background: #ffffff;
 	-webkit-transform-origin: top;
@@ -1194,7 +1194,7 @@ img{
 
 .main-menu .navigation > li > ul > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li > ul > li{
@@ -1253,7 +1253,7 @@ img{
 	-webkit-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
 }
 
@@ -1293,19 +1293,19 @@ img{
 .main-header .search-box-btn{
 	position: relative;
 	float: left;
-    font-size: 24px;
+	font-size: 24px;
 	line-height: 30px;
-    cursor: pointer;
-    background: none;
-    color: #ffffff;
-    font-weight: 400;
-    cursor: pointer;
+	cursor: pointer;
+	background: none;
+	color: #ffffff;
+	font-weight: 400;
+	cursor: pointer;
 	margin-top:10px;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
 }
 
 .main-header .search-box-btn:hover{
@@ -1321,7 +1321,7 @@ img{
 	left: auto !important;
 	right: 0;
 	padding:0px;
-	width:280px;	
+	width:280px;
 	border-radius:0px;
 	-webkit-transform: none !important;
 	-ms-transform: none !important;
@@ -1330,12 +1330,12 @@ img{
 }
 
 .main-header .search-panel .form-container{
-	padding:25px 20px;	
+	padding:25px 20px;
 }
 
 .main-header .search-panel .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .main-header .search-panel input[type="text"],
@@ -1349,12 +1349,12 @@ img{
 	height:40px;
 	font-size:14px;
 	border:1px solid #e0e0e0;
-	background:#ffffff;	
+	background:#ffffff;
 }
 
 .main-header .search-panel input:focus,
 .main-header .search-panel select:focus{
-	border-color:#25262c;	
+	border-color:#25262c;
 }
 
 .main-header .search-panel .search-btn{
@@ -1395,7 +1395,7 @@ img{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Header Style Two
@@ -1445,7 +1445,7 @@ img{
 	padding: 10px 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Header Style Three
@@ -1474,7 +1474,7 @@ img{
 	border-radius: 3px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Fixed Header
@@ -1487,7 +1487,7 @@ img{
 	background-color: #101130;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Mobile Menu
@@ -1511,7 +1511,7 @@ img{
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:20px 20px;
-	text-align:left;	
+	text-align:left;
 }
 
 .mobile-menu .nav-logo img{
@@ -1648,7 +1648,7 @@ img{
 
 .mobile-menu .navigation li:hover > a,
 .mobile-menu .navigation li.current > a{
-	color:#2BB884;	
+	color:#2BB884;
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn{
@@ -1680,7 +1680,7 @@ img{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Banner Section
@@ -1722,10 +1722,10 @@ img{
 
 .banner-carousel .content-box .title{
 	display: block;
-    font-size: 28px;
-    color: #faaC1D;
-    font-weight: 500;
-    margin-bottom: 25px;
+	font-size: 28px;
+	color: #faaC1D;
+	font-weight: 500;
+	margin-bottom: 25px;
 	opacity: 0;
 	-webkit-transform: translateY(100px);
 	-moz-transform: translateY(100px);
@@ -1749,11 +1749,11 @@ img{
 }
 
 .banner-carousel .content-box h2{
-    display: block;
-    font-size: 74px;
-    line-height: 1.2em;
-    color: #ffffff;
-    font-weight: 700;
+	display: block;
+	font-size: 74px;
+	line-height: 1.2em;
+	color: #ffffff;
+	font-weight: 700;
 	margin-bottom: 30px;
 	opacity: 0;
 	-webkit-transform: translateY(100px);
@@ -1896,7 +1896,7 @@ img{
 	color: #222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Banner Conference
@@ -1928,9 +1928,9 @@ img{
 	left:10% !important;
 	top:17% !important;
 	width: 12px;
-    height: 12px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 12px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-two{
@@ -1938,9 +1938,9 @@ img{
 	left:35% !important;
 	top:25% !important;
 	width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-three{
@@ -1948,9 +1948,9 @@ img{
 	left:6% !important;
 	top:58% !important;
 	width: 34px;
-    height: 10px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-four{
@@ -1958,9 +1958,9 @@ img{
 	left:56% !important;
 	top:60% !important;
 	width: 34px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-five{
@@ -1968,9 +1968,9 @@ img{
 	left:79% !important;
 	top:25% !important;
 	width: 35px;
-    height: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-six{
@@ -1978,9 +1978,9 @@ img{
 	left:90% !important;
 	top:88% !important;
 	width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-seven{
@@ -1988,9 +1988,9 @@ img{
 	left:80% !important;
 	top:60% !important;
 	width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-eight{
@@ -1998,9 +1998,9 @@ img{
 	left:52% !important;
 	top:40% !important;
 	width: 12px;
-    height: 12px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 12px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-nine{
@@ -2008,9 +2008,9 @@ img{
 	left:52% !important;
 	top:12% !important;
 	width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-ten{
@@ -2018,9 +2018,9 @@ img{
 	left:34% !important;
 	top:68% !important;
 	width: 34px;
-    height: 10px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-eleven{
@@ -2028,9 +2028,9 @@ img{
 	left:89% !important;
 	top:80% !important;
 	width: 34px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-twelve{
@@ -2038,9 +2038,9 @@ img{
 	left:69% !important;
 	top:70% !important;
 	width: 35px;
-    height: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-thirteen{
@@ -2048,9 +2048,9 @@ img{
 	left:200% !important;
 	top:88% !important;
 	width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference .icons .icon-fourteen{
@@ -2058,9 +2058,9 @@ img{
 	left:95% !important;
 	top:95% !important;
 	width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icon-dots{
@@ -2102,18 +2102,18 @@ img{
 
 .banner-conference-two .content-box .title{
 	display: block;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 400;
-    margin-bottom: 20px;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .banner-conference-two .content-box h2{
-    display: block;
-    font-size: 50px;
-    line-height: 1.2em;
-    color: #ffffff;
-    font-weight: 700;
+	display: block;
+	font-size: 50px;
+	line-height: 1.2em;
+	color: #ffffff;
+	font-weight: 700;
 	margin-bottom: 50px;
 }
 
@@ -2142,13 +2142,13 @@ img{
 }
 
 .banner-conference-two .time-countdown .counter-column:before{
-    position:absolute;
-    content:':';
-    top:10px;
-    right:-20px;
-    font-size:30px;
-    line-height:1em;
-    color:#ffffff;
+	position:absolute;
+	content:':';
+	top:10px;
+	right:-20px;
+	font-size:30px;
+	line-height:1em;
+	color:#ffffff;
 }
 
 .banner-conference-two .time-countdown .counter-column:after{
@@ -2254,17 +2254,17 @@ img{
 
 .banner-conference .content-box .title{
 	display: block;
-    font-size: 24px;
-    color: #222222;
-    font-weight: 500;
-    margin-bottom: 20px;
+	font-size: 24px;
+	color: #222222;
+	font-weight: 500;
+	margin-bottom: 20px;
 }
 
 .banner-conference .content-box h2{
-    display: block;
-    font-size: 54px;
-    line-height: 1.2em;
-    color: #e78f45;
+	display: block;
+	font-size: 54px;
+	line-height: 1.2em;
+	color: #e78f45;
 	background: rgb(43, 184, 132);
 	background: -moz-linear-gradient(to left, rgba(43,184,132,1) 0%, rgba(10, 67, 96,1) 100%);
 	background: -webkit-linear-gradient(to left, rgba(43,184,132,1) 0%, rgba(10, 67, 96,1) 100%);
@@ -2272,8 +2272,8 @@ img{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2BB884', endColorstr='#441066',GradientType=1 );
 	color: transparent;
 	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-    font-weight: 700;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
 	margin-bottom: 50px;
 }
 
@@ -2303,13 +2303,13 @@ img{
 
 
 .banner-conference .time-countdown .counter-column:before{
-    position:absolute;
-    content:':';
-    top:10px;
-    right:-20px;
-    font-size:30px;
-    line-height:1em;
-    color:#2BB884;
+	position:absolute;
+	content:':';
+	top:10px;
+	right:-20px;
+	font-size:30px;
+	line-height:1em;
+	color:#2BB884;
 }
 
 .banner-conference .time-countdown .counter-column:after{
@@ -2341,7 +2341,7 @@ img{
 	position: relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Banner MeetUp
@@ -2472,7 +2472,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		About Section
@@ -2547,26 +2547,26 @@ img{
 }
 
 .about-section .image-column .image:before{
-    position: absolute;
-    right: -10%;
-    top: -10%;
-    height: 120%;
-    width: 120%;
-    background-image: url(../images/icons/shape-2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    -webkit-animation: dizzling 10s infinite;
-    -moz-animation: dizzling 10s infinite;
-    -ms-animation: dizzling 10s infinite;
-    -o-animation: dizzling 10s infinite;
-    animation: dizzling 10s infinite;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
-    content: "";
+	position: absolute;
+	right: -10%;
+	top: -10%;
+	height: 120%;
+	width: 120%;
+	background-image: url(../images/icons/shape-2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	-webkit-animation: dizzling 10s infinite;
+	-moz-animation: dizzling 10s infinite;
+	-ms-animation: dizzling 10s infinite;
+	-o-animation: dizzling 10s infinite;
+	animation: dizzling 10s infinite;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	content: "";
 }
 
 @keyframes dizzling{
@@ -2658,7 +2658,7 @@ img{
 	opacity: .05;
 }
 
-/*** 
+/***
 
 ====================================================================
 		About Section Two
@@ -2737,7 +2737,7 @@ img{
 
 .about-section-two .about-block .text{
 	font-size: 16px;
-	color: #888888;
+	color: #000000;
 	line-height: 1.2em;
 	font-weight: 500;
 }
@@ -2800,7 +2800,7 @@ img{
 	opacity: .05;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Coming Soon
@@ -2852,13 +2852,13 @@ img{
 }
 
 .coming-soon-section .time-countdown .counter-column:before{
-    position:absolute;
-    content:':';
-    top:10px;
-    right:-50px;
-    font-size:56px;
-    line-height:1em;
-    color:#ffffff;
+	position:absolute;
+	content:':';
+	top:10px;
+	right:-50px;
+	font-size:56px;
+	line-height:1em;
+	color:#ffffff;
 }
 
 .coming-soon-section .time-countdown .counter-column:last-child:before{
@@ -2874,7 +2874,7 @@ img{
 	font-weight: 700;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Features Section
@@ -2977,7 +2977,7 @@ img{
 	display: block;
 	font-size: 15px;
 	line-height: 24px;
-	color: #888888;
+	color: #000000;
 	font-weight: 400;
 	margin-bottom: 25px;
 	cursor: default;
@@ -3057,20 +3057,20 @@ img{
 
 .features-section .icon-line-1{
 	right: 10%;
-    top: 35%;
-    -webkit-animation: fa-spin 30s infinite alternate;
-    -moz-animation: fa-spin 30s infinite alternate;
-    -ms-animation: fa-spin 30s infinite alternate;
-    -o-animation: fa-spin 30s infinite alternate;
-    animation: fa-spin 30s infinite alternate;
+	top: 35%;
+	-webkit-animation: fa-spin 30s infinite alternate;
+	-moz-animation: fa-spin 30s infinite alternate;
+	-ms-animation: fa-spin 30s infinite alternate;
+	-o-animation: fa-spin 30s infinite alternate;
+	animation: fa-spin 30s infinite alternate;
 }
 
 .features-section .icon-dots{
 	right: 10%;
-    top: 35%;
+	top: 35%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Features Section Two
@@ -3143,13 +3143,13 @@ img{
 	background: -webkit-linear-gradient(to left, rgba(43,184,132,1) 0%, rgba(10, 67, 96,1) 100%);
 	background: linear-gradient(to left, rgba(43,184,132) 0%,rgba(10, 67, 96,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2BB884', endColorstr='#441066',GradientType=1 );
-  	background: none;
-  	color: #2BB884;
-  	-webkit-transition: all 400ms ease;
-  	-moz-transition: all 400ms ease;
-  	-ms-transition: all 400ms ease;
-  	-o-transition: all 400ms ease;
-  	transition: all 400ms ease;
+	background: none;
+	color: #2BB884;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
 }
 
 .feature-block-two .inner-box:hover .icon-box .icon{
@@ -3189,7 +3189,7 @@ img{
 	display: block;
 	font-size: 15px;
 	line-height: 24px;
-	color: #888888;
+	color: #000000;
 	font-weight: 400;
 	cursor: default;
 }
@@ -3207,17 +3207,17 @@ img{
 
 .features-section-two .twist-line-1{
 	left: -110px;
-    top: 290px;
+	top: 290px;
 }
 
 .features-section-two .twist-line-2{
 	left: -10%;
-    top: 80px;
+	top: 80px;
 }
 
 .features-section-two .twist-line-3{
 	left: 90px;
-    top: 50px;
+	top: 50px;
 }
 
 .twist-line-1{
@@ -3238,7 +3238,7 @@ img{
 	background-image: url(../images/icons/twist-line-3.png);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Features Section Three
@@ -3324,8 +3324,8 @@ img{
 	width: 40px;
 	font-size: 40px;
 	line-height: 1em;
-  	margin-top: -20px;
-  	margin-left: -20px;
+	margin-top: -20px;
+	margin-left: -20px;
 	color: #ffffff;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -3371,7 +3371,7 @@ img{
 	display: block;
 	font-size: 14px;
 	line-height: 24px;
-	color: #888888;
+	color: #000000;
 	font-weight: 400;
 	cursor: default;
 }
@@ -3506,7 +3506,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Speakers Section
@@ -3590,8 +3590,8 @@ img{
 	text-align:center;
 	background-color: rgba(28,139,210,.70);
 	background-color: rgba(237,23,127,.90);
-	
-	
+
+
 	-webkit-transition: -webkit-transform 0.4s ease;
 	transition: -webkit-transform 0.4s ease;
 	transition: transform 0.4s ease;
@@ -3767,7 +3767,7 @@ img{
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Speakers Section Two
@@ -3957,19 +3957,19 @@ img{
 }
 
 .icon-circle-4{
-	height: 156px;	
-	width: 156px;	
+	height: 156px;
+	width: 156px;
 	background-image: url(../images/icons/icon-circle-4.png);
 }
 
 .icon-circle-3{
-	height: 360px;	
-	width: 360px;	
+	height: 360px;
+	width: 360px;
 	background-image: url(../images/icons/icon-circle-3.png);
 	background-size: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Speakers Section Three
@@ -3995,9 +3995,9 @@ img{
 	position: relative;
 	background-color: #ffffff;
 	overflow: hidden;
-    padding-bottom: 30px;
-    max-width: 300px;
-    margin: 0 auto;
+	padding-bottom: 30px;
+	max-width: 300px;
+	margin: 0 auto;
 	overflow:hidden;
 	box-shadow: 0 20px 30px rgba(0,0,0,0.10);
 	-webkit-transition: all 300ms ease;
@@ -4019,21 +4019,21 @@ img{
 }
 
 .speaker-block-three .image-box:before{
-    position: absolute;
-    left: -10px;
-    right: -10px;
-    top: -4px;
-    height: 100%;
-    background-image: url(../images/icons/shape-5.png);
-    -webkit-transform: scale(-1);
-    -moz-transform: scale(-1);
-    -ms-transform: scale(-1);
-    -o-transform: scale(-1);
-    transform: scale(-1);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: cover;
-    content: "";
+	position: absolute;
+	left: -10px;
+	right: -10px;
+	top: -4px;
+	height: 100%;
+	background-image: url(../images/icons/shape-5.png);
+	-webkit-transform: scale(-1);
+	-moz-transform: scale(-1);
+	-ms-transform: scale(-1);
+	-o-transform: scale(-1);
+	transform: scale(-1);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: cover;
+	content: "";
 }
 
 .speaker-block-three .image-box .image{
@@ -4131,8 +4131,8 @@ img{
 }
 
 .speaker-block-three .social-box{
-    position: absolute;
-    top: 90px;
+	position: absolute;
+	top: 90px;
 	transform:translateX(-50px);
 	-webkit-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
@@ -4176,10 +4176,10 @@ img{
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
-	Speker Detail								
+	Speker Detail
 ====================================================================
 
 ***/
@@ -4266,7 +4266,7 @@ img{
 	position: relative;
 	font-size: 16px;
 	line-height: 1.6em;
-	color: #888888;
+	color: #000000;
 	margin-bottom: 30px;
 }
 
@@ -4289,7 +4289,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	schedule Section
@@ -4347,19 +4347,19 @@ img{
 
 .schedule-tabs .tab-buttons li{
 	position: relative;
-    display: inline-block;
-    height: 135px;
-    width: 160px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    font-size: 16px;
-    line-height: 20px;
-    color: #222222;
-    font-weight: 600;
-    text-align: left;
-    padding: 15px 15px;
-    padding-top: 70px;
-    padding-left: 90px;
+	display: inline-block;
+	height: 135px;
+	width: 160px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	font-size: 16px;
+	line-height: 20px;
+	color: #222222;
+	font-weight: 600;
+	text-align: left;
+	padding: 15px 15px;
+	padding-top: 70px;
+	padding-left: 90px;
 	cursor: pointer;
 	margin: 0 15px 20px;
 	border: 1px solid #dddddd;
@@ -4371,37 +4371,37 @@ img{
 }
 
 .schedule-tabs .tab-buttons li .day{
-    position: absolute;
-    left: 0px;
-    top: 30px;
-    padding: 5px 20px;
-    background-color: #222222;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
-    color: #ffffff;
-    border-radius: 0 15px 15px 0;
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	padding: 5px 20px;
+	background-color: #222222;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 0 15px 15px 0;
 }
 
 .schedule-tabs .tab-buttons li .date{
 	position: absolute;
-    left: -0;
-    top: 80px;
-    width: 100px;
-    text-align: center;
-    font-size: 38px;
-    line-height: 20px;
-    font-weight: 600;
-    color: #222222;
+	left: -0;
+	top: 80px;
+	width: 100px;
+	text-align: center;
+	font-size: 38px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #222222;
 }
 
 .schedule-tabs .tab-buttons li .month{
 	display: block;
-    font-size: 20px;
-    line-height: 1em;
-    font-weight: 600;
-    color: #222222;
-    text-transform: uppercase;
+	font-size: 20px;
+	line-height: 1em;
+	font-weight: 600;
+	color: #222222;
+	text-transform: uppercase;
 }
 
 .schedule-tabs .tab-buttons li .year{
@@ -4478,7 +4478,7 @@ img{
 
 .schedule-block{
 	position: relative;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
 }
 
 .schedule-block:after{
@@ -4506,12 +4506,12 @@ img{
 
 .schedule-block .inner:before{
 	position: absolute;
-    top: 0;
-    bottom: -30px;
-    right: 100%;
-    border-left:2px dashed #dddddd;
-    content: "";
-    margin-right: 80px;
+	top: 0;
+	bottom: -30px;
+	right: 100%;
+	border-left:2px dashed #dddddd;
+	content: "";
+	margin-right: 80px;
 }
 
 .schedule-block .inner:after{
@@ -4525,21 +4525,21 @@ img{
 }
 
 .schedule-block .date{
-    position: absolute;
-    left: -132px;
-    width: 100px;
-    top: 0px;
-    height: 100px;
-    background-color: #ffffff;
-    text-align: center;
-    font-size: 14px;
-    line-height: 18px;
-    color: #212639;
-    font-weight: 500;
-    padding: 30px 15px 0;
-    border-radius: 50%;
-    border:2px dashed #dddddd;
-    box-shadow: 0 0 30px rgba(0,0,0,0.05);
+	position: absolute;
+	left: -132px;
+	width: 100px;
+	top: 0px;
+	height: 100px;
+	background-color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	color: #212639;
+	font-weight: 500;
+	padding: 30px 15px 0;
+	border-radius: 50%;
+	border:2px dashed #dddddd;
+	box-shadow: 0 0 30px rgba(0,0,0,0.05);
 }
 
 .schedule-block .speaker-info{
@@ -4597,7 +4597,7 @@ img{
 	position: relative;
 	font-size: 16px;
 	line-height: 26px;
-	color: #888888;
+	color: #000000;
 	margin-bottom: 15px;
 }
 
@@ -4764,7 +4764,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	schedule Section Style two
@@ -4807,12 +4807,12 @@ img{
 }
 
 .schedule-section.style-two .schedule-timeline {
-    position: relative;
-    max-width: 900px;
-    margin: 0 auto;
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	schedule Section Style Three
@@ -4868,9 +4868,9 @@ img{
 }
 
 .schedule-section.style-three .schedule-timeline {
-    position: relative;
+	position: relative;
 }
-/*** 
+/***
 
 ====================================================================
 		Event Detail
@@ -4975,7 +4975,7 @@ img{
 	display: block;
 	font-size: 16px;
 	line-height: 30px;
-	color: #888888;
+	color: #000000;
 	font-weight: 400;
 	margin-bottom: 30px;
 }
@@ -5007,7 +5007,7 @@ img{
 	margin-top: 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Pricing Section
@@ -5290,7 +5290,7 @@ img{
 	animation: fa-spin 30s infinite;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Pricing Section Two
@@ -5384,11 +5384,11 @@ img{
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
-    background: -moz-linear-gradient(to left, rgba(43,184,132,1) 0%, rgba(10, 67, 96,1) 25%, rgba(43,184,132,1) 75%, rgba(10, 67, 96,1) 100%);
-    background: -webkit-linear-gradient(to left, rgba(43,184,132,1) 0%,rgba(10, 67, 96,1) 25%,rgba(43,184,132,1) 75%,rgba(10, 67, 96,1) 100%);
-    background: linear-gradient(to left, rgba(43,184,132) 0%,rgba(10, 67, 96,1) 25%,rgba(43,184,132,1) 75%,rgba(10, 67, 96,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2BB884', endColorstr='#441066',GradientType=1 );
-    background-size: 600% 100%;
+	background: -moz-linear-gradient(to left, rgba(43,184,132,1) 0%, rgba(10, 67, 96,1) 25%, rgba(43,184,132,1) 75%, rgba(10, 67, 96,1) 100%);
+	background: -webkit-linear-gradient(to left, rgba(43,184,132,1) 0%,rgba(10, 67, 96,1) 25%,rgba(43,184,132,1) 75%,rgba(10, 67, 96,1) 100%);
+	background: linear-gradient(to left, rgba(43,184,132) 0%,rgba(10, 67, 96,1) 25%,rgba(43,184,132,1) 75%,rgba(10, 67, 96,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2BB884', endColorstr='#441066',GradientType=1 );
+	background-size: 600% 100%;
 }
 
 .pricing-block-two .inner-box:hover .price{
@@ -5474,7 +5474,7 @@ img{
 	background-size: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Pricing Section Three
@@ -5767,7 +5767,7 @@ img{
 
 .accordion-box .block{
 	position: relative;
-    margin-bottom:30px;
+	margin-bottom:30px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.10);
 }
 
@@ -5798,9 +5798,9 @@ img{
 	position:absolute;
 	right:25px;
 	top: 10px;
-    font-size: 18px;
-    line-height: 35px;
-    color: #ffffff;
+	font-size: 18px;
+	line-height: 35px;
+	color: #ffffff;
 	text-align:center;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -5839,7 +5839,7 @@ img{
 }
 
 .accordion-box .block .acc-content.current{
-	display:block;	
+	display:block;
 }
 
 .accordion-box .block .content{
@@ -5850,17 +5850,17 @@ img{
 
 .accordion-box .block .content .text{
 	position:relative;
-	font-size:16px;	
+	font-size:16px;
 	line-height: 26px;
-	color:#888888;
+	color:#000000;
 }
 
 .accordion-box .block .content p:last-child{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		FAQ Form Section
@@ -5880,7 +5880,7 @@ img{
 
 .faq-form .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .faq-form .form-group input[type="text"],
@@ -5889,27 +5889,27 @@ img{
 .faq-form .form-group textarea,
 .faq-form .form-group select{
 	position: relative;
-    display: block;
-    width: 100%;
-    font-size: 15px;
-    color: #222222;
-    line-height: 28px;
-    padding: 10px 25px;
-    background-color: #ffffff;
-    font-weight: 400;
-    height: 50px;
-    border: 1px solid #dddddd;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	color: #222222;
+	line-height: 28px;
+	padding: 10px 25px;
+	background-color: #ffffff;
+	font-weight: 400;
+	height: 50px;
+	border: 1px solid #dddddd;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
 }
 
 .faq-form .form-group input:focus,
 .faq-form .form-group select:focus,
 .faq-form .form-group textarea:focus{
-    box-shadow: 0 0 20px rgba(0,0,0,0.10);
+	box-shadow: 0 0 20px rgba(0,0,0,0.10);
 }
 
 .faq-form .form-group textarea{
@@ -5996,7 +5996,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		App Section
@@ -6079,7 +6079,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Gallery Section
@@ -6181,7 +6181,7 @@ img{
 
 
 
-/*** 
+/***
 
 ====================================================================
 		Event Info Section
@@ -6289,7 +6289,7 @@ img{
 .event-info-tabs .tabs-content .text{
 	font-size: 16px;
 	line-height: 28px;
-	color: #888888;
+	color: #000000;
 	max-width: 470px;
 }
 
@@ -6369,7 +6369,7 @@ img{
 
 
 
-/*** 
+/***
 
 ====================================================================
 		Testimonial Section
@@ -6433,7 +6433,7 @@ img{
 	display: block;
 	font-size: 20px;
 	line-height: 36px;
-	color: #888888;
+	color: #000000;
 	font-weight: 400;
 	max-width: 700px;
 	margin: 0 auto 25px;
@@ -6494,7 +6494,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		News Section
@@ -6538,30 +6538,30 @@ img{
 }
 
 .news-block .image-box .image a:after{
-  content: "";
-  position: absolute;
-  top: -110%;
-  left: -210%;
-  width: 200%;
-  height: 200%;
-  opacity: 0;
-  background: rgba(255, 255, 255, 0.13);
-  background: linear-gradient(
-    to right, 
-    rgba(255, 255, 255, 0.13) 0%,
-    rgba(255, 255, 255, 0.13) 77%,
-    rgba(255, 255, 255, 0.5) 92%,
-    rgba(255, 255, 255, 0.0) 100%
-  );
+	content: "";
+	position: absolute;
+	top: -110%;
+	left: -210%;
+	width: 200%;
+	height: 200%;
+	opacity: 0;
+	background: rgba(255, 255, 255, 0.13);
+	background: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.13) 0%,
+			rgba(255, 255, 255, 0.13) 77%,
+			rgba(255, 255, 255, 0.5) 92%,
+			rgba(255, 255, 255, 0.0) 100%
+	);
 }
 
 .news-block .inner-box:hover .image-box .image a:after {
-  opacity: 1;
-  top: -20%;
-  left: -30%;
-  transition-property: left, top, opacity;
-  transition-duration: 0.7s, 0.7s, 0.15s;
-  transition-timing-function: linear;
+	opacity: 1;
+	top: -20%;
+	left: -30%;
+	transition-property: left, top, opacity;
+	transition-duration: 0.7s, 0.7s, 0.15s;
+	transition-timing-function: linear;
 }
 
 .news-block .image img{
@@ -6622,7 +6622,7 @@ img{
 	position: relative;
 	font-size: 14px;
 	line-height: 27px;
-	color: #888888;
+	color: #000000;
 	font-weight: 400;
 	margin-bottom: 20px;
 }
@@ -6668,21 +6668,21 @@ img{
 
 .news-section .twist-line-1{
 	left: -110px;
-    top: 290px;
+	top: 290px;
 }
 
 .news-section .twist-line-2{
 	left: -10%;
-    top: 80px;
+	top: 80px;
 }
 
 .news-section .twist-line-3{
 	left: 90px;
-    top: 50px;
+	top: 50px;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Blog Sidebar
@@ -6707,7 +6707,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Blog Detail
@@ -6743,7 +6743,7 @@ img{
 	font-size: 16px;
 	line-height: 30px;
 	margin-bottom: 30px;
-	color: #888888;
+	color: #000000;
 }
 
 .blog-single .lower-content blockquote{
@@ -6891,7 +6891,7 @@ img{
 	display: block;
 	font-size: 16px;
 	line-height: 30px;
-	color: #888888;
+	color: #000000;
 	font-weight: 400;
 	margin-bottom: 25px;
 }
@@ -6922,7 +6922,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Styled Pagination
@@ -6966,12 +6966,12 @@ img{
 
 .styled-pagination li a:hover,
 .styled-pagination li a.active{
-    background-color: #2BB884;
-    color: #ffffff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.10);
+	background-color: #2BB884;
+	color: #ffffff;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.10);
 }
 
-/*** 
+/***
 
 ====================================================================
 			Coming Soon
@@ -7083,7 +7083,7 @@ img{
 	font-size:16px;
 	font-weight:400;
 	line-height: 26px;
-	color:#888888;
+	color:#000000;
 	margin-bottom: 50px;
 }
 
@@ -7117,7 +7117,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .coming-soon .emailed-form .form-group input[type="submit"],
@@ -7171,7 +7171,7 @@ img{
 	opacity: .20;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Video Section
@@ -7227,9 +7227,9 @@ img{
 }
 
 .video-section .play-now{
-    position: relative;
-    display: inline-block;
-    margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	margin-top: 50px;
 }
 
 .video-section .play-now .icon{
@@ -7275,11 +7275,11 @@ img{
 	-ms-box-shadow: 0 0px 10px 0 rgba(255, 255, 255, .3);
 	-o-box-shadow: 0 0px 10px 0 rgba(255, 255, 255, .3);
 	box-shadow: 0  0px 10px 0 rgba(255, 255, 255, .3);
-	-webkit-transform-origin:center; 
-	-moz-transform-origin:center; 
-	-ms-transform-origin:center; 
-	-o-transform-origin:center; 
-	transform-origin:center; 
+	-webkit-transform-origin:center;
+	-moz-transform-origin:center;
+	-ms-transform-origin:center;
+	-o-transform-origin:center;
+	transform-origin:center;
 }
 
 .play-now .ripple,
@@ -7342,7 +7342,7 @@ img{
 	100% {box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);}
 }
 
-/*** 
+/***
 
 ====================================================================
 		Call to Action
@@ -7399,7 +7399,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Register Section
@@ -7567,7 +7567,7 @@ img{
 
 
 
-/*** 
+/***
 
 ====================================================================
 		Contact Page Section
@@ -7599,7 +7599,7 @@ img{
 
 .contact-form .form-group{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .contact-form .form-group:last-child{
@@ -7612,21 +7612,21 @@ img{
 .contact-form .form-group textarea,
 .contact-form .form-group select{
 	position: relative;
-    display: block;
-    width: 100%;
-    font-size: 18px;
-    color: #555555;
-    line-height: 32px;
-    padding: 15px 30px;
-    border: 1px solid #f1f1f1;
-    background-color: #f1f1f1;
-    font-weight: 400;
-    height: 64px;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	color: #555555;
+	line-height: 32px;
+	padding: 15px 30px;
+	border: 1px solid #f1f1f1;
+	background-color: #f1f1f1;
+	font-weight: 400;
+	height: 64px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
 }
 
 .contact-form .form-group input:focus,
@@ -7647,7 +7647,7 @@ img{
 .contact-form input.error:focus,
 .contact-form select.error:focus,
 .contact-form textarea.error:focus{
-	border-color:#ff0000;	
+	border-color:#ff0000;
 }
 
 .contact-form label.error{
@@ -7721,7 +7721,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Map Section
@@ -7764,7 +7764,7 @@ img{
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Subscribe Section
@@ -7829,7 +7829,7 @@ img{
 
 .subscribe-section .content-box .sec-title h2{
 	position: relative;
-	display: block;		
+	display: block;
 	color: #ffffff;
 	font-size: 30px;
 	line-height: 35px;
@@ -7901,7 +7901,7 @@ img{
 	cursor: pointer;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Newsletter Section
@@ -7929,7 +7929,7 @@ img{
 
 .newsletter-section .icon-line-1{
 	right: -70px;
-    top: 50%;
+	top: 50%;
 	-webkit-animation: fa-spin 30s infinite alternate;
 	-moz-animation: fa-spin 30s infinite alternate;
 	-ms-animation: fa-spin 30s infinite alternate;
@@ -8032,7 +8032,7 @@ img{
 
 }
 
-/*** 
+/***
 
 ====================================================================
 		Clients Section
@@ -8104,11 +8104,11 @@ img{
 	width:auto;
 	display:inline-block;
 	opacity: 1;
-    -webkit-transition:all 300ms ease;
-    -moz-transition:all 300ms ease;
-    -ms-transition:all 300ms ease;
-    -o-transition:all 300ms ease;
-    transition:all 300ms ease;    
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition:all 300ms ease;
 }
 
 .clients-section .sponsors-outer .image-box:hover img{
@@ -8138,13 +8138,13 @@ img{
 
 .clients-section .icon-dots-3{
 	left: -60px;
-    top: 230px;
+	top: 230px;
 }
 
 .clients-section .icon-circle-blue{
 	left: -370px;
-    top: 500px;
-    opacity: .50;
+	top: 500px;
+	opacity: .50;
 	-webkit-animation: fa-spin 30s infinite alternate;
 	-moz-animation: fa-spin 30s infinite alternate;
 	-ms-animation: fa-spin 30s infinite alternate;
@@ -8152,7 +8152,7 @@ img{
 	animation: fa-spin 30s infinite alternate;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Clients Section Two
@@ -8215,18 +8215,18 @@ img{
 
 .clients-section-two .sponsors-outer .image-box img{
 	opacity: .80;
-    -webkit-transition:all 300ms ease;
-    -moz-transition:all 300ms ease;
-    -ms-transition:all 300ms ease;
-    -o-transition:all 300ms ease;
-    transition:all 300ms ease;    
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition:all 300ms ease;
 }
 
 .clients-section-two .sponsors-outer .image-box:hover img{
 	opacity: 1;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Clients Section Three
@@ -8291,11 +8291,11 @@ img{
 	max-width: 70%;
 	opacity: .80;
 	display: inline-block;
-    -webkit-transition:all 300ms ease;
-    -moz-transition:all 300ms ease;
-    -ms-transition:all 300ms ease;
-    -o-transition:all 300ms ease;
-    transition:all 300ms ease;    
+	-webkit-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	transition:all 300ms ease;
 }
 
 .clients-section-three .sponsors-outer .image-box:hover img{
@@ -8358,7 +8358,7 @@ img{
 }
 
 .main-footer .logo{
-	position:relative;	
+	position:relative;
 	margin-bottom: 5px;
 	top: -20px;
 }
@@ -8369,7 +8369,7 @@ img{
 
 .main-footer .footer-logo img{
 	display:block;
-	max-width:100%;	
+	max-width:100%;
 }
 
 .main-footer .about-widget .text{
@@ -8478,7 +8478,7 @@ img{
 	color: #ffffff;
 	font-weight: 400;
 	padding: 0 15px;
-	border-left: 1px solid #2BB884; 
+	border-left: 1px solid #2BB884;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -8495,9 +8495,9 @@ img{
 }
 
 .main-footer .contact-list li{
-    position: relative;
-    padding-left:40px;
-    margin-bottom: 25px;
+	position: relative;
+	padding-left:40px;
+	margin-bottom: 25px;
 }
 
 .main-footer .contact-list li:last-child{
@@ -8505,12 +8505,12 @@ img{
 }
 
 .main-footer .contact-list li .icon{
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 23px;
-    line-height: 25px;
-    color: #ffffff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 23px;
+	line-height: 25px;
+	color: #ffffff;
 }
 
 .main-footer .contact-list li .text{
@@ -8584,7 +8584,7 @@ img{
 
 .instagram-widget .image img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .instagram-widget .image a{
@@ -8630,12 +8630,12 @@ img{
 	top: 50%;
 	margin-left: -10px;
 	margin-top: -10px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 18px;
-    color: #2BB884;
-    font-weight: 900;
-    content: "\f0c1";
+	text-align: center;
+	line-height: 20px;
+	font-size: 18px;
+	color: #2BB884;
+	font-weight: 900;
+	content: "\f0c1";
 	font-family: "Font Awesome 5 Free";
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
@@ -8924,7 +8924,7 @@ img{
 	opacity: .05;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Error Section
@@ -8969,7 +8969,7 @@ img{
 }
 
 .error-section .text{
-	color:#888888;
+	color:#000000;
 	font-size:22px;
 	line-height: 1.4em;
 	margin-bottom:30px;
@@ -9014,7 +9014,7 @@ img{
 	top: -200px;
 	opacity: .20;
 }
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -9037,8 +9037,8 @@ img{
 }
 
 .sidebar-widget{
-    position:relative;
-    margin-bottom:50px;
+	position:relative;
+	margin-bottom:50px;
 }
 
 .sidebar-widget:last-child{
@@ -9067,7 +9067,7 @@ img{
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -9102,7 +9102,7 @@ img{
 	width:60px;
 	display:block;
 	font-size:18px;
-	color:#888888;
+	color:#000000;
 	line-height: 60px;
 	font-weight:normal;
 	background:#eeeeee;
@@ -9128,10 +9128,10 @@ img{
 }
 
 .sidebar .popular-posts .post .post-thumb{
-	 position:absolute;
-	 left:0px;
-	 top:0px;
-	 width:90px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:90px;
 }
 
 .sidebar .popular-posts .post .post-thumb img{
@@ -9149,7 +9149,7 @@ img{
 	font-size:18px;
 	line-height:26px;
 	font-weight:600;
-	color:#888888;
+	color:#000000;
 	margin:0px;
 }
 
@@ -9240,7 +9240,7 @@ img{
 	color:#2BB884;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Comment Area
@@ -9336,7 +9336,7 @@ img{
 .comments-area .comment-box .text{
 	font-size: 15px;
 	line-height: 26px;
-	color:#888888;
+	color:#000000;
 	font-weight: 400;
 }
 
@@ -9348,7 +9348,7 @@ img{
 	padding: 5px 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Comment Form
@@ -9357,7 +9357,7 @@ img{
  ***/
 
 .comment-form{
- 	position: relative;
+	position: relative;
 }
 
 .comment-form .form-group{
@@ -9374,21 +9374,21 @@ img{
 .comment-form .form-group textarea,
 .comment-form .form-group select{
 	position: relative;
-    display: block;
-    height: 50px;
-    width: 100%;
-    font-size: 14px;
-    color: #878787;
-    line-height: 28px;
-    font-weight: 400;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    border: 1px solid #999999;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    transition: all 300ms ease;
+	display: block;
+	height: 50px;
+	width: 100%;
+	font-size: 14px;
+	color: #878787;
+	line-height: 28px;
+	font-weight: 400;
+	padding: 10px 20px;
+	background-color: #ffffff;
+	border: 1px solid #999999;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
 }
 
 .comment-form .form-group input:focus,
@@ -9468,18 +9468,18 @@ img{
 }
 
 .buy-ticket .ticket-form{
- 	position: relative;
- 	padding: 40px 30px;
- 	background-color: #f7f7f7;
- 	z-index: 1;
- 	margin-bottom: 40px;
+	position: relative;
+	padding: 40px 30px;
+	background-color: #f7f7f7;
+	z-index: 1;
+	margin-bottom: 40px;
 }
 
 .ticket-form .form-group{
 	position:relative;
 	display: block;
 	width: 100%;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .ticket-form .form-group:last-child{
@@ -9495,21 +9495,21 @@ img{
 .ticket-form .form-group textarea,
 .ticket-form .form-group select{
 	position: relative;
-    display: block;
-    width: 100%;
-    font-size: 16px;
-    line-height: 20px;
-    color: #9da6b4;
-    font-weight: 400;
-    height: 60px;
-    padding: 20px 30px;
-    background-color: #ffffff;
-    border:1px solid #dddddd;
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	line-height: 20px;
+	color: #9da6b4;
+	font-weight: 400;
+	height: 60px;
+	padding: 20px 30px;
+	background-color: #ffffff;
+	border:1px solid #dddddd;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
 }
 
 .ticket-form .form-group input:focus,
@@ -9537,7 +9537,7 @@ img{
 	position: relative;
 	font-size: 14px;
 	line-height: 24px;
-	color: #888888;
+	color: #000000;
 }
 
 .ticket-form .form-group label:hover{
@@ -9611,73 +9611,73 @@ img{
 			Social icon Colored
 =========================================================*/
 
-.social-icon-colored .fa-adn{color:#504e54;} 
-.social-icon-colored .fa-apple{color:#aeb5c5;} 
-.social-icon-colored .fa-android{color:#A5C63B;}  
-.social-icon-colored .fa-bitbucket,.social-icon-colored .fa-bitbucket-square{color:#003366;} 
-.social-icon-colored .fa-bitcoin,.social-icon-colored .fa-btc{color:#F7931A;} 
-.social-icon-colored .fa-css3{color:#1572B7;} 
-.social-icon-colored .fa-dribbble{color:#F46899;}  
+.social-icon-colored .fa-adn{color:#504e54;}
+.social-icon-colored .fa-apple{color:#aeb5c5;}
+.social-icon-colored .fa-android{color:#A5C63B;}
+.social-icon-colored .fa-bitbucket,.social-icon-colored .fa-bitbucket-square{color:#003366;}
+.social-icon-colored .fa-bitcoin,.social-icon-colored .fa-btc{color:#F7931A;}
+.social-icon-colored .fa-css3{color:#1572B7;}
+.social-icon-colored .fa-dribbble{color:#F46899;}
 .social-icon-colored .fa-dropbox{color:#018BD3;}
-.social-icon-colored .fa-facebook,.social-icon-colored .fa-facebook-f, .social-icon-colored .fa-facebook-square{color:#3C599F;}  
+.social-icon-colored .fa-facebook,.social-icon-colored .fa-facebook-f, .social-icon-colored .fa-facebook-square{color:#3C599F;}
 .social-icon-colored .fa-flickr{color:#FF0084;}
 .social-icon-colored .fa-foursquare{color:#0086BE;}
-.social-icon-colored .fa-github,.social-icon-colored .fa-github-alt,.social-icon-colored .fa-github-square{color:#070709;} 
-.social-icon-colored .fa-google-plus,.social-icon-colored .fa-google-plus-g,.social-icon-colored .fa-google-plus-square{color:#CF3D2E;} 
+.social-icon-colored .fa-github,.social-icon-colored .fa-github-alt,.social-icon-colored .fa-github-square{color:#070709;}
+.social-icon-colored .fa-google-plus,.social-icon-colored .fa-google-plus-g,.social-icon-colored .fa-google-plus-square{color:#CF3D2E;}
 .social-icon-colored .fa-html5{color:#E54D26;}
 .social-icon-colored .fa-instagram{color:#A1755C;}
-.social-icon-colored .fa-linkedin,.social-icon-colored .fa-linkedin-in,.social-icon-colored .fa-linkedin-square{color:#0085AE;} 
+.social-icon-colored .fa-linkedin,.social-icon-colored .fa-linkedin-in,.social-icon-colored .fa-linkedin-square{color:#0085AE;}
 .social-icon-colored .fa-linux{color:#FBC002;color:#333;}
 .social-icon-colored .fa-maxcdn{color:#F6AE1C;}
 .social-icon-colored .fa-pagelines{color:#241E20;color:#3984EA;}
-.social-icon-colored .fa-pinterest,.social-icon-colored .fa-pinterest-square{color:#CC2127;} 
+.social-icon-colored .fa-pinterest,.social-icon-colored .fa-pinterest-square{color:#CC2127;}
 .social-icon-colored .fa-renren{color:#025DAC;}
 .social-icon-colored .fa-skype{color:#01AEF2;}
 .social-icon-colored .fa-stack-exchange{color:#245590;}
 .social-icon-colored .fa-stack-overflow{color:#FF7300;}
 .social-icon-colored .fa-trello{color:#265A7F;}
-.social-icon-colored .fa-tumblr,.social-icon-colored .fa-tumblr-square{color:#314E6C;} 
-.social-icon-colored .fa-twitter,.social-icon-colored .fa-twitter-square{color:#32CCFE;} 
+.social-icon-colored .fa-tumblr,.social-icon-colored .fa-tumblr-square{color:#314E6C;}
+.social-icon-colored .fa-twitter,.social-icon-colored .fa-twitter-square{color:#32CCFE;}
 .social-icon-colored .fa-vimeo-square{color:#229ACC;}
 .social-icon-colored .fa-vk{color:#375474;}
 .social-icon-colored .fa-weibo{color:#D72B2B;}
 .social-icon-colored .fa-windows{color:#12B6F3;}
-.social-icon-colored .fa-xing,.social-icon-colored .fa-xing-square{color:#00555C;} 
+.social-icon-colored .fa-xing,.social-icon-colored .fa-xing-square{color:#00555C;}
 .social-icon-colored .fa-youtube,.social-icon-colored .fa-youtube-play,.social-icon-colored .fa-youtube-square{color:#C52F30;}
 
 /*Social icon Colored*/
-.social-icon-colored li a:hover .fa-adn{background-color:#504e54;} 
-.social-icon-colored li a:hover .fa-apple{background-color:#aeb5c5;} 
-.social-icon-colored li a:hover .fa-android{background-color:#A5C63B;}  
-.social-icon-colored li a:hover .fa-bitbucket,.social-icon-colored li a:hover .fa-bitbucket-square{background-color:#003366;} 
-.social-icon-colored li a:hover .fa-bitcoin,.social-icon-colored li a:hover .fa-btc{background-color:#F7931A;} 
-.social-icon-colored li a:hover .fa-css3{background-color:#1572B7;} 
-.social-icon-colored li a:hover .fa-dribbble{background-color:#F46899;}  
+.social-icon-colored li a:hover .fa-adn{background-color:#504e54;}
+.social-icon-colored li a:hover .fa-apple{background-color:#aeb5c5;}
+.social-icon-colored li a:hover .fa-android{background-color:#A5C63B;}
+.social-icon-colored li a:hover .fa-bitbucket,.social-icon-colored li a:hover .fa-bitbucket-square{background-color:#003366;}
+.social-icon-colored li a:hover .fa-bitcoin,.social-icon-colored li a:hover .fa-btc{background-color:#F7931A;}
+.social-icon-colored li a:hover .fa-css3{background-color:#1572B7;}
+.social-icon-colored li a:hover .fa-dribbble{background-color:#F46899;}
 .social-icon-colored li a:hover .fa-dropbox{background-color:#018BD3;}
-.social-icon-colored li a:hover .fa-facebook,.social-icon-colored li a:hover .fa-facebook-f, .social-icon-colored li a:hover .fa-facebook-square{background-color:#3C599F;}  
+.social-icon-colored li a:hover .fa-facebook,.social-icon-colored li a:hover .fa-facebook-f, .social-icon-colored li a:hover .fa-facebook-square{background-color:#3C599F;}
 .social-icon-colored li a:hover .fa-flickr{background-color:#FF0084;}
 .social-icon-colored li a:hover .fa-foursquare{background-color:#0086BE;}
-.social-icon-colored li a:hover .fa-github,.social-icon-colored li a:hover .fa-github-alt,.social-icon-colored li a:hover .fa-github-square{background-color:#070709;} 
-.social-icon-colored li a:hover .fa-google-plus,.social-icon-colored li a:hover .fa-google-plus-g,.social-icon-colored li a:hover .fa-google-plus-square{background-color:#CF3D2E;} 
+.social-icon-colored li a:hover .fa-github,.social-icon-colored li a:hover .fa-github-alt,.social-icon-colored li a:hover .fa-github-square{background-color:#070709;}
+.social-icon-colored li a:hover .fa-google-plus,.social-icon-colored li a:hover .fa-google-plus-g,.social-icon-colored li a:hover .fa-google-plus-square{background-color:#CF3D2E;}
 .social-icon-colored li a:hover .fa-html5{background-color:#E54D26;}
 .social-icon-colored li a:hover .fa-instagram{background-color:#A1755C;}
-.social-icon-colored li a:hover .fa-linkedin,.social-icon-colored li a:hover .fa-linkedin-in,.social-icon-colored li a:hover .fa-linkedin-square{background-color:#0085AE;} 
+.social-icon-colored li a:hover .fa-linkedin,.social-icon-colored li a:hover .fa-linkedin-in,.social-icon-colored li a:hover .fa-linkedin-square{background-color:#0085AE;}
 .social-icon-colored li a:hover .fa-linux{background-color:#FBC002;color:#333;}
 .social-icon-colored li a:hover .fa-maxcdn{background-color:#F6AE1C;}
 .social-icon-colored li a:hover .fa-pagelines{background-color:#241E20;color:#3984EA;}
-.social-icon-colored li a:hover .fa-pinterest,.social-icon-colored li a:hover .fa-pinterest-square{background-color:#CC2127;} 
+.social-icon-colored li a:hover .fa-pinterest,.social-icon-colored li a:hover .fa-pinterest-square{background-color:#CC2127;}
 .social-icon-colored li a:hover .fa-renren{background-color:#025DAC;}
 .social-icon-colored li a:hover .fa-skype{background-color:#01AEF2;}
 .social-icon-colored li a:hover .fa-stack-exchange{background-color:#245590;}
 .social-icon-colored li a:hover .fa-stack-overflow{background-color:#FF7300;}
 .social-icon-colored li a:hover .fa-trello{background-color:#265A7F;}
-.social-icon-colored li a:hover .fa-tumblr,.social-icon-colored li a:hover .fa-tumblr-square{background-color:#314E6C;} 
-.social-icon-colored li a:hover .fa-twitter,.social-icon-colored li a:hover .fa-twitter-square{background-color:#32CCFE;} 
+.social-icon-colored li a:hover .fa-tumblr,.social-icon-colored li a:hover .fa-tumblr-square{background-color:#314E6C;}
+.social-icon-colored li a:hover .fa-twitter,.social-icon-colored li a:hover .fa-twitter-square{background-color:#32CCFE;}
 .social-icon-colored li a:hover .fa-vimeo-square{background-color:#229ACC;}
 .social-icon-colored li a:hover .fa-vk{background-color:#375474;}
 .social-icon-colored li a:hover .fa-weibo{background-color:#D72B2B;}
 .social-icon-colored li a:hover .fa-windows{background-color:#12B6F3;}
-.social-icon-colored li a:hover .fa-xing,.social-icon-colored li a:hover .fa-xing-square{background-color:#00555C;} 
+.social-icon-colored li a:hover .fa-xing,.social-icon-colored li a:hover .fa-xing-square{background-color:#00555C;}
 .social-icon-colored li a:hover .fa-youtube,.social-icon-colored li a:hover .fa-youtube-play,.social-icon-colored li a:hover .fa-youtube-square{background-color:#C52F30;}
 .social-icon-colored li a:hover .fab{
 	color: #ffffff;
@@ -9748,7 +9748,7 @@ img{
 }
 
 .rtl .sidebar .search-box .form-group button,
-.rtl .subscribe-form .form-group input[type="submit"], 
+.rtl .subscribe-form .form-group input[type="submit"],
 .rtl .subscribe-form .form-group button,
 .rtl .banner-conference .images-outer,
 .rtl .banner-conference .layer-outer{
@@ -9820,9 +9820,9 @@ img{
 }
 
 .rtl .register-form .form-group input[type="text"],
-.rtl .register-form .form-group input[type="email"], 
+.rtl .register-form .form-group input[type="email"],
 .rtl .register-form .form-group input[type="url"],
-.rtl .register-form .form-group input[type="number"], 
+.rtl .register-form .form-group input[type="number"],
 .rtl .register-form .form-group input[type="date"],
 .rtl .register-form .form-group input[type="email"],
 .rtl .register-form .form-group textarea, .register-form .form-group select{
@@ -9914,8 +9914,8 @@ img{
 }
 
 .rtl .feature-block-three .inner-box{
-    padding-right: 170px;
-    padding-left: 100px;
+	padding-right: 170px;
+	padding-left: 100px;
 }
 
 .rtl .feature-block-three .icon-box{
@@ -9929,8 +9929,8 @@ img{
 }
 
 .rtl .speaker-block-three .info-box {
-    padding: 10px 30px;
-    padding-left: 10px;
+	padding: 10px 30px;
+	padding-left: 10px;
 }
 
 .rtl .speaker-block-three .info-box:before{
@@ -10042,8 +10042,8 @@ img{
 }
 
 .rtl .blog-single .lower-content blockquote {
-    padding: 35px 40px;
-    padding-right: 95px;
+	padding: 35px 40px;
+	padding-right: 95px;
 }
 
 .rtl .blog-single .lower-content blockquote .icon{
@@ -10121,7 +10121,7 @@ img{
 	margin-left:30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Box Layout
@@ -10343,7 +10343,7 @@ img{
 	margin-top:8px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Coming Soon Section Two
@@ -10386,7 +10386,7 @@ img{
 
 .coming-soon-section-two .time-counter{
 	position:relative;
-	
+
 }
 
 .coming-soon-section-two .time-countdown{
@@ -10408,13 +10408,13 @@ img{
 }
 
 .coming-soon-section-two .time-countdown .counter-column:before{
-    position:absolute;
-    content:':';
-    top:5px;
-    right:-50px;
-    font-size:80px;
-    line-height:1em;
-    color:#ffffff;
+	position:absolute;
+	content:':';
+	top:5px;
+	right:-50px;
+	font-size:80px;
+	line-height:1em;
+	color:#ffffff;
 	font-style:normal;
 }
 
@@ -10502,7 +10502,7 @@ img{
 	font-size:16px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Conference Two
@@ -10532,9 +10532,9 @@ img{
 	left:10% !important;
 	top:17% !important;
 	width: 12px;
-    height: 12px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 12px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-two{
@@ -10542,9 +10542,9 @@ img{
 	left:35% !important;
 	top:25% !important;
 	width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-three{
@@ -10552,9 +10552,9 @@ img{
 	left:6% !important;
 	top:58% !important;
 	width: 34px;
-    height: 10px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-four{
@@ -10562,9 +10562,9 @@ img{
 	left:56% !important;
 	top:60% !important;
 	width: 34px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-five{
@@ -10572,9 +10572,9 @@ img{
 	left:79% !important;
 	top:25% !important;
 	width: 35px;
-    height: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-six{
@@ -10582,9 +10582,9 @@ img{
 	left:90% !important;
 	top:88% !important;
 	width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-seven{
@@ -10592,9 +10592,9 @@ img{
 	left:80% !important;
 	top:60% !important;
 	width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 
@@ -10605,9 +10605,9 @@ img{
 	left:52% !important;
 	top:40% !important;
 	width: 12px;
-    height: 12px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 12px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-nine{
@@ -10615,9 +10615,9 @@ img{
 	left:52% !important;
 	top:12% !important;
 	width: 16px;
-    height: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-ten{
@@ -10625,9 +10625,9 @@ img{
 	left:34% !important;
 	top:68% !important;
 	width: 34px;
-    height: 10px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-eleven{
@@ -10635,9 +10635,9 @@ img{
 	left:89% !important;
 	top:80% !important;
 	width: 34px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-twelve{
@@ -10645,9 +10645,9 @@ img{
 	left:69% !important;
 	top:70% !important;
 	width: 35px;
-    height: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 16px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-thirteen{
@@ -10655,9 +10655,9 @@ img{
 	left:200% !important;
 	top:88% !important;
 	width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two .icons .icon-fourteen{
@@ -10665,9 +10665,9 @@ img{
 	left:95% !important;
 	top:95% !important;
 	width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
+	height: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .banner-conference-two:before{
@@ -10719,18 +10719,18 @@ img{
 
 .banner-conference-two .content-box .title{
 	display: block;
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 400;
-    margin-bottom: 20px;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .banner-conference-two .content-box h2{
-    display: block;
-    font-size: 50px;
-    line-height: 1.2em;
-    color: #ffffff;
-    font-weight: 700;
+	display: block;
+	font-size: 50px;
+	line-height: 1.2em;
+	color: #ffffff;
+	font-weight: 700;
 	margin-bottom: 50px;
 }
 
@@ -10759,13 +10759,13 @@ img{
 }
 
 .banner-conference-two .time-countdown .counter-column:before{
-    position:absolute;
-    content:':';
-    top:10px;
-    right:-20px;
-    font-size:30px;
-    line-height:1em;
-    color:#ffffff;
+	position:absolute;
+	content:':';
+	top:10px;
+	right:-20px;
+	font-size:30px;
+	line-height:1em;
+	color:#ffffff;
 }
 
 .banner-conference-two .time-countdown .counter-column:after{
@@ -10815,7 +10815,7 @@ img{
 
 
 
-/*** 
+/***
 
 ====================================================================
 	Search Popup
@@ -10867,14 +10867,14 @@ img{
 }
 
 .search-popup .close-search:hover{
-	opacity:0.70;	
+	opacity:0.70;
 }
 
 .search-popup .search-form{
 	position:relative;
 	padding:0px 15px 0px;
 	max-width:1024px;
-	margin:0 auto;	
+	margin:0 auto;
 	margin-top:200px;
 }
 
@@ -10934,7 +10934,7 @@ img{
 	font-size:24px;
 	color:#ffffff;
 	margin-bottom:20px;
-	text-align:center;	
+	text-align:center;
 }
 
 .search-popup .recent-searches{
@@ -10945,7 +10945,7 @@ img{
 
 .search-popup .recent-searches li{
 	display:inline-block;
-	margin:0px 10px 10px 0px;	
+	margin:0px 10px 10px 0px;
 }
 
 .search-popup .recent-searches li a{
@@ -10959,11 +10959,11 @@ img{
 
 .search-popup .recent-searches li a:hover{
 	color:#2BB884;
-	border-color:#2BB884;	
+	border-color:#2BB884;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Register Section
@@ -10999,7 +10999,7 @@ img{
 /* Styled Form */
 
 .styled-form{
-	position:relative;	
+	position:relative;
 }
 
 .styled-form .submit-text{
@@ -11022,7 +11022,7 @@ img{
 
 .checkout-section .styled-form .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .styled-form .form-group .check-box{
@@ -11092,21 +11092,21 @@ img{
 	-moz-transition:all 300ms ease;
 }
 
-.event-info-section .map-outer iframe{ 
+.event-info-section .map-outer iframe{
 	position: relative;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 435px;
-    margin-bottom: -10px;	
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 435px;
+	margin-bottom: -10px;
 }
-.map-section .map-outer iframe{ 
+.map-section .map-outer iframe{
 	position: relative;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 540px;
-    margin-bottom: -10px;	
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 540px;
+	margin-bottom: -10px;
 }
 
 .contact-sec-image image{
