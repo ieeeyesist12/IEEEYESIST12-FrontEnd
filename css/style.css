@@ -230,9 +230,9 @@ img{
 	transform: scaleX(-1) translateY(-1px);
 }
 
-::-webkit-input-placeholder{color: inherit;}
-::-moz-input-placeholder{color:  inherit;}
-::-ms-input-placeholder{color:  inherit;}
+::-webkit-input-placeholder{color: rgba(0, 0, 0, 0.15);}
+::-moz-input-placeholder{color:  rgba(0, 0, 0, 0.15);}
+::-ms-input-placeholder{color:  rgba(0, 0, 0, 0.15);}
 
 
 ::selection {
