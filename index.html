@@ -1101,13 +1101,18 @@ xEnd Clients Section-->
 <script type="text/javascript">function showDanq() {
     let danQ = 'Your Contact Request has been submitted successfully!';
     window.alert(danQ);
-    document.getElementById("contact-form").reset();
+    setTimeout(resetNow, 1000);
+            function resetNow() {
+                document.getElementById("contact-form").reset();
+            }
 }
 function showSub(){
     let subQ = 'You have succesffully subscribed to our newsletter!';
     window.alert(subQ);
-    document.getElementById("subForm").reset();
-}
+    setTimeout(resetNow, 1000);
+            function resetNow() {
+                document.getElementById("subForm").reset();
+            }}
 </script>
 
 <script src="js/jquery.js"></script>
