@@ -178,11 +178,6 @@
                                     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScBIufxqsKWFPALlqwsuSg1PzI0K3KvtxpLbwYl556iMwt5uw/formResponse"
                                     id="ic-pilot-reg" target="hidden_iframe" onsubmit="showDanq()"">
                                     <div class=" row clearfix">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <h4 style="color: #0A4360; font-weight: 500;">Institute Details</h4>
-                                        <input type="text" name="entry.147820356" placeholder="Institute Details"
-                                            required="" style="">
-                                    </div>
 
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
                                         <h4 style="color: #0A4360; font-weight: 500;">Name of the institute</h4>
@@ -191,14 +186,8 @@
                                     </div>
 
                                     <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <h4 style="color: #0A4360; font-weight: 500;">Institute Website</h4>
+                                        <h4 style="color: #0A4360; font-weight: 500;">Institute Website URL</h4>
                                         <input type="text" name="entry.1778923578" placeholder="Institute website"
-                                            required="">
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                        <h4 style="color: #0A4360; font-weight: 500;">Other Informattion</h4>
-                                        <input type="text" name="entry.1385119691" placeholder="Other Information"
                                             required="">
                                     </div>
 
@@ -426,9 +415,12 @@
     <script src="js/jquery.js"></script>
 
     <script type="text/javascript">function showDanq() {
-            let danQ = 'Your Contact Request has been submitted successfully!';
+            let danQ = 'Thanks for registering with us. Your response has been recorded successfully. We will get back to your registered email shortly!';
             window.alert(danQ);
-            document.getElementById("ic-pilot-reg").reset();
+            setTimeout(resetNow, 1000);
+            function resetNow() {
+                document.getElementById("ic-pilot-reg").reset();
+            }
         }
     </script>
 
