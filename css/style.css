@@ -342,6 +342,13 @@ img{
 	position: relative;
 }
 
+.spacer-single{
+	width:100%;
+	height:30px;
+	display:block;
+	clear:both;
+}
+
 .btn-style-two:hover{
 	color:#0A4360;
 	-webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.10);
